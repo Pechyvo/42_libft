@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstlast_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anonymous<anonymous@example.com         > +#+  +:+       +#+        */
+/*   By: anonymous<anonymous@example.com         >          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/29 13:57:22 by anonymous         #+#    #+#             */
-/*   Updated: 2023/11/29 15:11:09 by anonymous        ###   ########.fr       */
+/*   Created: 2026/07/26 00:00:00 by anonymous        #+#    #+#             */
+/*   Updated: 2026/07/26 00:00:00 by anonymous       ###   ########.fr       */
 /*                                                                            */
 /* anonymousanonymousanonymousanonymousanonymousanonymousanonymousanonymousanonymous** */
 

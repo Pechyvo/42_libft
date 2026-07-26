@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anonymous<anonymous@example.com         > +#+  +:+       +#+        */
+/*   By: anonymous<anonymous@example.com         >          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/18 16:49:40 by anonymous         #+#    #+#             */
-/*   Updated: 2023/12/04 14:09:05 by anonymous        ###   ########.fr       */
+/*   Created: 2026/07/26 00:00:00 by anonymous        #+#    #+#             */
+/*   Updated: 2026/07/26 00:00:00 by anonymous       ###   ########.fr       */
 /*                                                                            */
 /* anonymousanonymousanonymousanonymousanonymousanonymousanonymousanonymousanonymous** */
 

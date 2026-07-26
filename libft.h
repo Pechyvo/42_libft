@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anonymous<anonymous@example.com         > +#+  +:+       +#+        */
+/*   By: anonymous<anonymous@example.com         >          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/13 10:20:13 by anonymous         #+#    #+#             */
-/*   Updated: 2023/11/29 17:22:04 by anonymous        ###   ########.fr       */
+/*   Created: 2026/07/26 00:00:00 by anonymous        #+#    #+#             */
+/*   Updated: 2026/07/26 00:00:00 by anonymous       ###   ########.fr       */
 /*                                                                            */
 /* anonymousanonymousanonymousanonymousanonymousanonymousanonymousanonymousanonymous** */
 

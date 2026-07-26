@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anonymous<anonymous@example.com         > +#+  +:+       +#+        */
+/*   By: anonymous<anonymous@example.com         >          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/14 16:04:47 by anonymous         #+#    #+#             */
-/*   Updated: 2023/11/22 13:36:27 by anonymous        ###   ########.fr       */
+/*   Created: 2026/07/26 00:00:00 by anonymous        #+#    #+#             */
+/*   Updated: 2026/07/26 00:00:00 by anonymous       ###   ########.fr       */
 /*                                                                            */
 /* anonymousanonymousanonymousanonymousanonymousanonymousanonymousanonymousanonymous** */
 
