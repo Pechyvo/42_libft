@@ -23,15 +23,3 @@ size_t	ft_strlen(const char *str)
 	}
 	return (i);
 }
-
-// #include <string.h>
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	char i[] = "one two three";
-// 	int orig = strlen(i);
-// 	int my = ft_strlen(i);
-// 	printf("%i\n", orig);
-// 	printf("%i\n", my);
-// 	return (0);
-// }
