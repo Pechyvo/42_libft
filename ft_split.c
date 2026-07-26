@@ -49,21 +49,22 @@ static char	**ft_freemem(char **list)
 
 static char	**ft_split_2(char const *s, char c, char **list)
 {
-	int		i;
-	size_t	len;
+	int			i;
+	size_t		len;
+	char const	*end;
 
 	i = 0;
-	len = 0;
 	while (*s)
 	{
 		while (*s == c && *s)
 			s++;
 		if (*s)
 		{
-			if (!ft_strchr(s, c))
+			end = ft_strchr(s, c);
+			if (end == NULL)
 				len = ft_strlen(s);
 			else
-				len = ft_strchr(s, c) - s;
+				len = end - s;
 			list[i] = ft_substr(s, 0, len);
 			if (list[i++] == NULL)
 				return (ft_freemem(list));
@@ -78,8 +79,10 @@ char	**ft_split(char const *s, char c)
 {
 	char	**list;
 
-	list = (char **)malloc((ft_wordcount(s, c) + 1) * sizeof(char *));
-	if (list == NULL || s == NULL)
+	if (s == NULL)
+		return (NULL);
+	list = malloc((ft_wordcount(s, c) + 1) * sizeof(char *));
+	if (list == NULL)
 		return (NULL);
 	list = ft_split_2(s, c, list);
 	return (list);
