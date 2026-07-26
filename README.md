@@ -99,7 +99,7 @@ make
 Build the library with the bonus linked-list functions:
 
 ```sh
-make && make bonus
+make bonus
 ```
 
 Other available targets:

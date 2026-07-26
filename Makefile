@@ -50,12 +50,12 @@ BNSOBJS			=	${BNS:%.c=%.o}
 
 CFLAGS 			= 	-Wall -Wextra -Werror
 CC 				= 	cc
-RM				= 	rm -rf
+RM				= 	rm -f
 
 all: $(NAME)
 
-bonus: all $(BNSOBJS)
-	ar rcs $(NAME) $^
+bonus: $(NAME) $(BNSOBJS)
+	ar rcs $(NAME) $(BNSOBJS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c -o $@ $<
