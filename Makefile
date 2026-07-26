@@ -54,7 +54,7 @@ RM				= 	rm -rf
 
 all: $(NAME)
 
-bonus: $(BNSOBJS)
+bonus: all $(BNSOBJS)
 	ar rcs $(NAME) $^
 
 %.o: %.c

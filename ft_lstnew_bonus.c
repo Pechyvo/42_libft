@@ -23,22 +23,3 @@ t_list	*ft_lstnew(void *content)
 	node->next = NULL;
 	return (node);
 }
-
-// #include <stdio.h>
-// #include <stdlib.h>
-// int main() {
-//     int data = 42;
-
-//     // Using your custom ft_lstnew function
-//     t_list *node = ft_lstnew(&data);
-
-//     // Print the content of the created node
-//     if (node != NULL) {
-//         printf("Custom ft_lstnew - Content: %d\n", *(int *)(node->content));
-//         free(node);
-//     } else {
-//         printf("Custom ft_lstnew - Node creation failed.\n");
-//     }
-
-//     return 0;
-// }

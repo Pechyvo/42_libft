@@ -24,19 +24,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		}
 	}
 }
-
-// #include <stdio.h>
-// // Example function to print the index and character
-// void print_index_char(unsigned int index, char *character) {
-//     printf("Index: %u, Character: %c\n", index, *character);
-// }
-
-// int main() {
-//     char str[] = "Hello, World!";
-
-//     // Using your custom ft_striteri function
-//     printf("Custom ft_striteri - Result:\n");
-//     ft_striteri(str, print_index_char);
-
-//     return 0;
-// }

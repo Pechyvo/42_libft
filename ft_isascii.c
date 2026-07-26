@@ -17,15 +17,3 @@ int	ft_isascii(int c)
 	else
 		return (0);
 }
-
-// #include <ctype.h>
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	int i = 66;
-// 	int orig = isascii(i);
-// 	int my = ft_isascii(i);
-// 	printf("%i\n", orig);
-// 	printf("%i\n", my);
-// 	return (0);
-// }

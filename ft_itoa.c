@@ -63,23 +63,3 @@ char	*ft_itoa(int n)
 	str = ft_convert(str, num, len);
 	return (str);
 }
-
-// #include <stdio.h>
-// #include <stdlib.h>
-// int main() {
-//     int num = -12345;
-
-//     // Using your custom ft_itoa function
-//     char *result_ft = ft_itoa(num);
-//     printf("Custom ft_itoa - Result: %s\n", result_ft);
-//     free(result_ft);
-
-//     // Using the standard library's itoa function
-//     char *result_std = malloc(20);
-		// Allocate enough memory, size can vary based on the system
-//     snprintf(result_std, 20, "%d", num);
-//     printf("Standard itoa - Result: %s\n", result_std);
-//     free(result_std);
-
-//     return 0;
-// }

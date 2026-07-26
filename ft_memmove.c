@@ -39,24 +39,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-// int main() {
-//     char source[] = "Hello, World!";
-//     char destination[20];
-// 	char source_orig[] = "Hello, World!";
-//     char destination_orig[20];
-
-// 	printf("Orig Func:\n");
-//     printf("Source: %s\n", source_orig);
-//     memmove(destination_orig, source_orig, 13);
-//     printf("Destination: %s\n", destination_orig);
-
-// 	printf("My Func:\n");
-//     printf("Source: %s\n", source);
-//     ft_memmove(destination, source, 13);
-//     printf("Destination: %s\n", destination);
-
-//     return 0;
-// }

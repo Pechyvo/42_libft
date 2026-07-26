@@ -17,15 +17,3 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
-
-// #include <ctype.h>
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	int i = 126;
-// 	int orig = isprint(i);
-// 	int my = ft_isprint(i);
-// 	printf("%i\n", orig);
-// 	printf("%i\n", my);
-// 	return (0);
-// }

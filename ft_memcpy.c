@@ -26,22 +26,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-// int main() {
-//     char source[] = "Hello, World!";
-//     char destination[20];
-//     char destination_std[20];
-
-//     // Test your custom ft_memcpy function
-//     ft_memcpy(NULL, NULL, 5);
-
-//     // Test the standard library's memcpy function
-//     memcpy(NULL, NULL, 5);
-
-//     printf("Custom ft_memcpy - Destination: %s\n", destination);
-//     printf("Standard memcpy - Destination: %s\n", destination_std);
-
-//     return 0;
-// }

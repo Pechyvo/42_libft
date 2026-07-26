@@ -17,17 +17,3 @@ int	ft_tolower(int c)
 	else
 		return (c);
 }
-
-// #include <ctype.h>
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	int i = 66;
-// 	printf("%c\n", i);
-// 	printf("%c\n", i);
-// 	int orig = tolower(i);
-// 	int my = ft_tolower(i);
-// 	printf("%c\n", orig);
-// 	printf("%c\n", my);
-// 	return (0);
-// }
