@@ -26,21 +26,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-// int main() {
-//     char buffer[10];
-//     char buffer_std[10];
-
-//     // Using your custom ft_memset function
-//     ft_memset(buffer, 'A', 5);
-
-//     // Using the standard library's memset function
-//     memset(buffer_std, 'A', 5);
-
-//     printf("Custom ft_memset: %s\n", buffer);
-//     printf("Standard memset: %s\n", buffer_std);
-
-//     return 0;
-// }

@@ -17,15 +17,3 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
-
-// #include <ctype.h>
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	int i = 100;
-// 	int orig = isalnum(i);
-// 	int my = ft_isalnum(i);
-// 	printf("%i\n", orig);
-// 	printf("%i\n", my);
-// 	return (0);
-// }

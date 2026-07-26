@@ -25,22 +25,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-// int main() {
-//     const char str1[] = "Hello, World!";
-//     const char str2[] = "Hello, Universe!";
-//     size_t len = strlen(str1);
-
-//     // Using your custom ft_memcmp function
-//     int result_ft = ft_memcmp(str1, str2, len);
-
-//     // Using the standard library's memcmp function
-//     int result_std = memcmp(str1, str2, len);
-
-//     printf("Custom ft_memcmp - Result: %d\n", result_ft);
-//     printf("Standard memcmp - Result: %d\n", result_std);
-
-//     return 0;
-// }
